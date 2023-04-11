@@ -1,10 +1,3 @@
----
-created: 2023-04-11T17:06:10 (UTC +08:00)
-tags: []
-source: https://www.philschmid.de/introducing-igel
-author: Philipp Schmid
----
-
 # Introducing IGEL an instruction-tuned German large Language Model
 
 > ## Excerpt
