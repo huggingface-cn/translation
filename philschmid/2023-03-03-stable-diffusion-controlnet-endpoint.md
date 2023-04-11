@@ -1,10 +1,3 @@
----
-created: 2023-04-11T19:10:20 (UTC +08:00)
-tags: []
-source: https://www.philschmid.de/stable-diffusion-controlnet-endpoint
-author: Philipp Schmid
----
-
 # Controlled text-to-image generation with ControlNet on Inference Endpoints
 
 > ## Excerpt
