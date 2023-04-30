@@ -232,6 +232,6 @@ EleutherAI 的工程师经常使用上述估算方法来高效规划、调试分
       year = {2023}
     }
 
-> 英文原文: <url> https://huggingface.co/blog/how-to-generate </url>
-> 原文作者：Quentin Anthony, Stella Biderman, Hailey Schoelkopf
+> 英文原文: <url> https://blog.eleuther.ai/transformer-math/ </url>
+> 原文作者：Quentin Anthony，Stella Biderman，Hailey Schoelkopf，作者均来自 EleutherAI
 > 译者: Matrix Yao (姚伟峰)，英特尔深度学习工程师，工作方向为 transformer-family 模型在各模态数据上的应用及大规模模型的训练推理。
