@@ -108,7 +108,7 @@ $$
 
 如果你之前看到过原始论文中的图片，我们刚刚完成的是图片的左下部分（嵌入 ＋ 位置编码）。
 
-[![Transformer模型的原始论文图片](assets\The-Random-Transformer\transformer.png "attention is all you need 原始论文中的Transformer模型结构")](https://arxiv.org/abs/1706.03762)
+[![Transformer模型的原始论文图片](https://osanseviero.github.io/hackerllama/blog/posts/random_transformer/transformer.png "attention is all you need 原始论文中的Transformer模型结构")](https://arxiv.org/abs/1706.03762)
 
 ### 4. 自注意力
 
@@ -885,7 +885,7 @@ $$
 
 我们已经熟悉了 1、2、3、5 和 6 的所有数学知识。查看下面的图像右侧，相信你已经了解了这些块（右侧部分）：
 
-[![Transformer模型的原始论文图片](assets\The-Random-Transformer\transformer.png "attention is all you need 原始论文中的Transformer模型结构")](https://arxiv.org/abs/1706.03762)
+[![Transformer模型的原始论文图片](https://osanseviero.github.io/hackerllama/blog/posts/random_transformer/transformer.png "attention is all you need 原始论文中的Transformer模型结构")](https://arxiv.org/abs/1706.03762)
 
 ### 1. 对文本进行嵌入
 
@@ -1320,7 +1320,7 @@ def generate(input_sequence, max_iters=10):
 
 我建议你再次详细研究原始论文中的整个编码器-解码器架构：
 
-[![Transformer模型的原始论文图片](assets\The-Random-Transformer\transformer.png "attention is all you need 原始论文中的Transformer模型结构")](https://arxiv.org/abs/1706.03762)
+[![Transformer模型的原始论文图片](https://osanseviero.github.io/hackerllama/blog/posts/random_transformer/transformer.png "attention is all you need 原始论文中的Transformer模型结构")](https://arxiv.org/abs/1706.03762)
 
 ## 结论
 
