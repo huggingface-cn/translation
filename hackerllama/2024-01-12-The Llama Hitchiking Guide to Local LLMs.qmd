@@ -2,7 +2,7 @@
 date: "01/12/2024"
 toc: false
 twitter-card: true
-title: The Llama Hitchiking Guide to Local LLMs大模型社区Llama便利指南
+title: 大模型社区Llama便利指南
 format:
   html:
     comments:
@@ -12,13 +12,13 @@ format:
 
 以下是一些在大模型社区里有可能用到的术语。
 
-1. **LocalLlama:** 一个由从业者、研究人员和黑客组成的 [Reddit 社区](https://www.reddit.com/r/LocalLLaMA/)，他们使用机器学习模型进行各种疯狂的实践。
+1. **LocalLlama:** 一个由从业者、研究人员和黑客组成的 [Reddit 社区](https://www.reddit.com/r/LocalLLaMA/)，他们使用机器学习模型进行各种疯狂的测试。
 
     ![](localllama.jpeg)
 
-2. **LLM:** 大语言模型. Usually a transformer-based model with a lot of parameters...billions or even trillions.
+2. **LLM:** 大语言模型. 通常是基于Transfomer架构训练的，具有大量的参数...参数量可能达到数十亿甚至是万亿。
 
-3. **Transformer:** A type of neural network architecture that is very good at language tasks. It is the basis for most LLMs.
+3. **Transformer:** 一种在文本任务上表现地非常优异的神经网络架构。它是绝大多数大型语言模型的基础。
 
 4. **GPT:** A type of transformer that is trained to predict the next token in a sentence. GPT-3 is an example of a GPT model...who could tell??
 
@@ -252,36 +252,36 @@ format:
 
 28. **Multimodal:** A single model that can handle multiple modalities. For example, a model that can generate text and images at the same time. Or a model that can generate text and audio at the same time. Or a model that can generate text, images, and audio at the same time. Or a model that can generate text, images, audio, video, smells, tastes, feelings, thoughts, dreams, memories, consciousness, souls, universes, gods, multiverses, and omniverses at the same time. (thanks ChatGPT for your hallucination)
 
-    28.1 **Hallucination:** When a model cangenerates responses that may be coherent but are not actually accurate, leading to the creation of misinformation or imaginary scenarios...such as the one above!
+    28.1 **Hallucination:** 模型生成的回答是连贯的，但实际上并不准确，模型会将现实不存在的信息自我逻辑自洽，导致虚假信息或想象中的情境的产生，就像上面的例子一样！
 
-    28.2 **LlaVA:** A multimodal model that can receive images and text as input and generate text respones. 
+    28.2 **LlaVA:** 一个多模态模型，能够接收图像和文本作为输入，并生成文本响应。
 
-29. **Bagel:** A process which mixes a bunch of supervised fine-tuning and preference data. It uses different prompt formats, making the model more versatile to all kinds of prompts.
+29. **Bagel:** 一个过程，它混合了大量的监督微调和偏好数据。它使用不同的提示格式，使模型对各种提示更加灵活适用。
 
-30. **Code Models:** LLMs that are specifically pre-trained for code.
+30. **Code Models:** 专门为代码任务而预训练的语言模型。
 
-    30.1. **Big Code Models Leaderboard:** A [leaderboard](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard) to compare code models in  the HumanEval dataset.
+    30.1. **Big Code Models Leaderboard:** 一个用于比较在HumanEval数据集中进行测评的代码模型的效果的[排行榜](https://huggingface.co/spaces/bigcode/bigcode-models-leaderboard)。
 
-    30.2. **HumanEval:** A very small dataset of 164 Python programming problems. It is translated to 18 programming languages in MultiPL-E.
+    30.2. **HumanEval:** 一个非常小的数据集，包含164个Python编程问题。这些问题已经在MultiPL-E中被翻译成18种编程语言。
 
-    30.3 **BigCode:** An open scientific collaboration working in code-related models and datasets.
+    30.3 **BigCode:** 一个致力于代码相关模型和数据集的开放的科学合作团体。
 
     ![](bigcode.jpeg)
 
-    30.4 **The Stack:** A dataset of 6.4TB of permissible-licensed code data covering 358 programming languages.
+    30.4 **The Stack:** 一个包含6.4TB合法许可的代码数据集，涵盖了358种编程语言。
 
-    30.5 **Code Llama:** The best base code model. It's based on Llama 2.
+    30.5 **Code Llama:** 最佳的基础代码模型。它基于 Llama 2微调。
 
     ![](codellama.jpeg)
 
-    30.6 **WizardLM:** A research team from Microsoft...but also a Discord community.
+    30.6 **WizardLM:** 来自微软的一个研究团队……同时也是一个Discord社群。
 
-    30.7 **WizardCoder:** A code model released by WizardLM. Its architecture is based on Llama
+    30.7 **WizardCoder:** WizardLM发布的代码模型。其架构基于 Llama。
 
-31. **Flash Attention:** An approximate attention algorithm which provides a huge speedup.
+31. **Flash Attention:** 一种近似注意力的算法，能够实现巨大的LLM推理加速效果
 
-    31.1 **Flash Attention 2:** An upgrade to the flash attention algorithm that provides even more speedup.
+    31.1 **Flash Attention 2:** 对该注意力算法的升级版本，可提供更好的LLM推理加速效果。
 
-    31.2. **Tri Dao:** The author of both techniques and a legend in the ecosystem.
+    31.2. **Tri Dao:** flash attention技术的作者，是注意力生态中的传奇人物。
 
-I hope you enjoyed this read! Feel free to suggest new terms or corrections in the comments below. I'll keep updating this post as new terms come up.
+希望你能喜欢！请随时在下面的评论中提出新的术语或者更正意见。随着新的术语出现，我将不断更新这篇文章。
